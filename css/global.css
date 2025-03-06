@@ -1,0 +1,124 @@
+@import url(../css/reset.css);
+@import url(../css/header.css);
+@import url(../css/footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    font-size: 16px;
+
+    --font-size-xl: 2.5rem;
+    --font-size-l: 2rem;
+    --font-size-m: 1.25rem;
+    --font-size-b: 1rem;
+
+    --font-weight-black: 900;
+    --font-weight-bold: 700;
+    --font-weight-regular: 400;
+
+    --font-family: 'Raleway', sans-serif;
+
+    --background-color-font-title: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    --background-color-banner: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6));
+    --background-color: #000000;
+    --background-button: #252525;
+    --text-color: #FFFFFF;
+    --accent-color:#31A8DD;
+    
+
+}
+
+body {
+    font-family: var(--font-family);
+    background: var(--background-color);
+}
+
+p {
+    color: var(--text-color);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-b);
+}
+
+
+.main-01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 118px 0px 91px 0;
+    gap: 24px;
+}
+
+h2 {
+    color: var(--accent-color);
+    font-size: var(--font-size-l);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.modules-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 792px;
+}
+
+.module {
+    background-color: var(--background-button);
+    padding: 16px 0px;
+    border: 1px solid var(--accent-color);
+    border-radius: 57px;
+    width: 535px;
+    height: 51px;
+    color: var(--text-color);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-b);
+    line-height: 100%;
+    box-shadow: inset -2px 6px 4px 0px #00000066;
+    ;
+}
+
+.module span {
+    color: var(--accent-color);
+}
+
+.main-02 {
+    background: url(../assets/images/woman-code.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    height: 560px;
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: var(--accent-color);
+    padding: 200px;
+}
+
+.main-02 p {
+    font-weight: var(--font-weight-black);
+    font-size: var(--font-size-xl);
+    color: var(--text-color);
+    text-align: left;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-shadow: 3px 2px #33A8DB;
+}
+
+.main-03 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    padding: 76px 0px;
+    border-bottom: 1px solid var(--accent-color);
+}
+
+.main-03 p {
+    width: 792px;
+    margin-top: 8px;
+}
+
